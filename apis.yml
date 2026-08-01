@@ -1,7 +1,24 @@
 aid: silver-tail
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/silver-tail.png
 name: Silver Tail
-description: Silver Tail is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Silver Tail Systems was a website fraud and abuse detection company founded in 2008 in Menlo
+  Park, California by Mike Eynon and Laura Mather, both formerly on the anti-fraud team at eBay/PayPal. Its
+  product collected and analyzed real-time web traffic to deliver web session intelligence and predictive
+  analytics that detected fraud, account takeover, and abuse on banking and commerce websites. Backed by
+  Andreessen Horowitz (a16z) among others, the company raised roughly $20M across three rounds before being
+  acquired by RSA, the security division of EMC, in 2012 and rebranded as RSA Web Threat Detection. It no
+  longer exists as an independent company and publishes no live developer or API surface.
 url: https://raw.githubusercontent.com/api-evangelist/silver-tail/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +26,33 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-reason: acquired-by-rsa-emc-2012-rebranded-rsa-web-threat-detection
+x-reference: https://a16z.com/the-tale-of-silver-tail-systems/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Security
+- Fraud Detection
+- Anti-Fraud
+- Predictive Analytics
+- Web Session Intelligence
+- Account Takeover
+- Financial Services
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: Silver Tail Systems is defunct (acquired by RSA/EMC 2012); no live domain,
+    website, or API surface exists to search, probe, or derive artifacts from.
