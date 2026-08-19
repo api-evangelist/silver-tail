@@ -29,7 +29,7 @@ x-tier-reason: portfolio-lead
 x-status: defunct
 x-status-reason: acquired-by-rsa-emc-2012-rebranded-rsa-web-threat-detection
 x-reference: https://a16z.com/the-tale-of-silver-tail-systems/
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
